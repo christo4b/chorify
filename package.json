@@ -1,13 +1,14 @@
 {
-  "name": "mobx-react-typescript-boilerplate",
-  "version": "1.0.0",
-  "description": "Boilerplate for MobX + React project with Typescript, ES6 compilation and hot code reloading",
+  "name": "chorify",
+  "version": "0.0.1",
+  "description": "Chore app for chores delegation and less stress",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}'"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mobxjs/mobx-react-typescript-boilerplate.git"
+    "url": "https://github.com/bgphipps/chorify.git"
   },
   "keywords": [
     "react",
@@ -16,7 +17,7 @@
     "mobx",
     "starter-kit"
   ],
-  "author": "Michel Weststrate <mweststrate@gmail.com> (http://github.com/mweststrate)",
+  "author": "Brian Phipps <bgphipps@gmail.com> (http://github.com/bgphipps)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mobxjs/mobx/issues"
@@ -25,8 +26,9 @@
   "devDependencies": {
     "@types/react": "^0.14.36",
     "@types/react-dom": "^0.14.17",
-    "awesome-typescript-loader": "^2.2.4",
-    "typescript": "2.0.3",
+    "awesome-typescript-loader": "^3.0.0-beta.9",
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.1",
     "webpack": "^1.9.6",
     "webpack-dev-server": "^1.8.2"
   },
